@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>   
+    <center><h1 id="jogador"> O jogador da vez é o X </h1> </center> <br><br>
+    <div class="container">
+        <div id="buttons">
+            <button class="btn1" id="btn1"></button>
+            <button class="btn1" id="btn2"></button>
+            <button class="btn1" id="btn3"></button>
+            </BR> <br>
+            <button class="btn1" id="btn4"></button>
+            <button class="btn1" id="btn5"></button>
+            <button class="btn1" id="btn6"></button>
+            <br> <br>
+            <button class="btn1" id="btn7"></button>
+            <button class="btn1" id="btn8"></button>
+            <button class="btn1" id="btn9"></button>
+        </div>
+    </div>
+    <br><br>
+    <center><input type="button" value="Voltar jogada" onClick="voltaJogada()"> </center>
+    <br><br>
+    <input type="checkbox" name="PC" id="pc" onclick="jogarPc(this)"> Jogar contra o computador
+    <br><br>
+    <center><div id="resultado"></div></center>
+</body>
+</html>
